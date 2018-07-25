@@ -12,12 +12,15 @@ public interface IAgenceLocDao {
 	void deleteVehicules(String marques, String modele);
 	
 	void rechercheRecette();
+	//void ajoutDureeLoc(String marque, String modele,TypesVehicules vehicules);
 	
 	TypesVehicules findVehicules(String marque, String modele );
 	
 	
 	
 	boolean vehiculeExists(String marque,String modele);
+
+	
 
 	
 

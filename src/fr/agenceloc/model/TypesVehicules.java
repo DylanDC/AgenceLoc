@@ -19,8 +19,7 @@ public abstract class TypesVehicules {
 	}
 	@Override
 	public String toString() {
-		return "TypesVehicules [ marque=" + marque + ", modele=" + modele + ", prixJour=" + prixJour
-				+ ", nbVehicule=" + nbVehicule + ", dureeLoc=" + dureeLoc + "]";
+		return "" + marque + " " + modele + " Tarif Journalier: " + prixJour+ " € \t Nombre de Vehicule en Stock : " + nbVehicule + "\t Duree de Location sur le Mois : " + dureeLoc + "\n";
 	}
 	
 	abstract String getType();

@@ -18,7 +18,14 @@ public class AjoutVehiculeService extends MenuService {
 		System.out.println("Veuillez saisir la durée de location");
 		int vDureeLoc= scanner.nextInt();
 		
-		//dao.saveNewVehicule(new TypesVehicules (vMarque, vModele, vTarif, vNbVehicule, vDureeLoc));
+		dao.saveNewVehicule(new TypesVehicules(vMarque, vModele, vTarif, vNbVehicule, vDureeLoc) {
+			
+			@Override
+			String getType() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		});
 			
 		
 
