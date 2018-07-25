@@ -2,8 +2,8 @@ package fr.agenceloc.model;
 
 public class Voitures extends TypesVehicules{
 
-	public Voitures(String type, String marque, String modele, double prixJour, int nbVehicule, int dureeLoc) {
-		super(type, marque, modele, prixJour, nbVehicule, dureeLoc);
+	public Voitures( String marque, String modele, double prixJour, int nbVehicule, int dureeLoc) {
+		super( marque, modele, prixJour, nbVehicule, dureeLoc);
 		// TODO Auto-generated constructor stub
 	}
 

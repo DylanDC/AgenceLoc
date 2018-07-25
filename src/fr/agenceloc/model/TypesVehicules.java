@@ -1,17 +1,16 @@
 package fr.agenceloc.model;
 
 public abstract class TypesVehicules {
-	protected String types;
-	protected String marque;
-	protected String modele;
-	protected double prixJour;
-	protected int nbVehicule;
-	protected int dureeLoc;
+	private String marque;
+	private String modele;
+	private double prixJour;
+	private int nbVehicule;
+	private int dureeLoc;
 	
 	
-	public TypesVehicules(String type, String marque, String modele, double prixJour, int nbVehicule, int dureeLoc) {
+	public TypesVehicules( String marque, String modele, double prixJour, int nbVehicule, int dureeLoc) {
 		super();
-		this.types = type;
+		
 		this.marque = marque;
 		this.modele = modele;
 		this.prixJour = prixJour;
@@ -20,18 +19,13 @@ public abstract class TypesVehicules {
 	}
 	@Override
 	public String toString() {
-		return "TypesVehicules [type=" + types + ", marque=" + marque + ", modele=" + modele + ", prixJour=" + prixJour
+		return "TypesVehicules [ marque=" + marque + ", modele=" + modele + ", prixJour=" + prixJour
 				+ ", nbVehicule=" + nbVehicule + ", dureeLoc=" + dureeLoc + "]";
 	}
 	
 	abstract String getType();
 	
-	public String getTypes() {
-		return types;
-	}
-	public void setTypes(String type) {
-		this.types = type;
-	}
+	
 	public String getMarque() {
 		return marque;
 	}
