@@ -27,18 +27,18 @@ De plus j'implémenterai des aquis appris en autodidacte sur ce projet (Comme par
 	* Herite de la class MenuService
 	* Definition de la class executeUC pour ListeVehiculeService
 
-6.Creation classe ModifierVehiculeService
+6. Creation classe ModifierVehiculeService
 	* Herite de la class MenuService
 	* Definition de la class executeUC pour ModifierVehiculeService
 
-7.Creation classe SupressionVehiculeService
+7. Creation classe SupressionVehiculeService
 	* Herite de la class MenuService
 	* Definition de la class executeUC pour SupressionVehiculeService
 
-8.Creation classe AjoutVehiculeService
+8. Creation classe AjoutVehiculeService
 	* Herite de la class MenuService
 	* Definition de la class executeUC pour AjoutVehiculeService
 
-9.Creation classe RecetteMois
+9. Creation classe RecetteMois
 	* Herite de la class MenuService
 	* Definition de la class executeUC pour RecetteMois
